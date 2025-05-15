@@ -1,4 +1,3 @@
-package j8.ocp.java_stream_api;
 
 class Person{
     private String firstName, lastName;
