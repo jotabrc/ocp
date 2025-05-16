@@ -1,4 +1,4 @@
-package j8.ocp.java_stream_api;
+
 
 public class AnotherBook {    
     private String title;
