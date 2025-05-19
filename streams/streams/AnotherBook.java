@@ -1,4 +1,4 @@
-
+package streams;
 
 public class AnotherBook {    
     private String title;

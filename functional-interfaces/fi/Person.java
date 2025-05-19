@@ -1,3 +1,5 @@
+package fi;
+
 public class Person {
 
     private Integer age;
@@ -24,7 +26,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "fi.Person{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
                 ", height=" + height +

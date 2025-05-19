@@ -1,4 +1,4 @@
-package j8.ocp.java_stream_api;
+package streams;
 
 public class Student {      
     public static enum Grade{ A, B , C, D, F}         

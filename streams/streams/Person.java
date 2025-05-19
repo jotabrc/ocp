@@ -1,3 +1,4 @@
+package streams;
 
 class Person{
     private String firstName, lastName;
@@ -23,7 +24,7 @@ class Person{
 
     @Override
     public String toString() {
-        return "Person{" + "firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + '}';
+        return "fi.streams.Person{" + "firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + '}';
     }
     
 }
