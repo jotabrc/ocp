@@ -144,13 +144,13 @@ public static void seqMap() {
 public static void recordPatterns(Object obj) {
 
     String value = switch (obj) {
-        case LecturerRecord l -> l.age() >= 64 ? """
+        case LecturerRecord(String name, Integer age, Faculty faculty, Department department)
+                when age >= 64-> """
                 %s
                 %d
                 %s
                 %s
-                """.formatted(l.name(), l.age(), l.faculty(), l.dept())
-                : "";
+                """.formatted(name, age, faculty, department);
         case null, default -> "";
     };
 
